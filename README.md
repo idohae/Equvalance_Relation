@@ -3,10 +3,10 @@
 
 ---
 ## functions
-[`check_reflexive`](#check_reflexive(A,R))
-[`check_symmetric`](#check_symmetric(R))
-[`check_transitive`](#check_transitive(A,R))
-[`check_equivalance`](#check_equivalance(A,R))
+[`check_reflexive(A,R)`](#check_reflexiveAR)
+[`check_symmetric(A)`](#check_symmetricR)
+[`check_transitive(A,R)`](#check_transitiveAR)
+[`check_equivalance(A,R)`](#check_equivalanceAR)
 
 ## check_reflexive(A,R)[▲](#functions)
 ```python
