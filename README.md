@@ -1,4 +1,4 @@
-# Equvalance_Relation (同治)
+# ⋆ ⊹ .˚ Equvalance_Relation (同治)    ･ﾟ✧
 정의역 집합과 관계집합을 set 형태로 넘겨주면 동치관계를 판별하는 코드이다.
 
 ---
