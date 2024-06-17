@@ -3,12 +3,12 @@
 
 ---
 ## functions
-[`check_reflexive`](#check_reflexive(A,R))
-[`check_symmetric`](#check_symmetric(R))
-[`check_transitive`](#check_transitive(A,R))
-[`check_equivalance`](#check_equivalance(A,R))
+[`check_reflexive(A,R)`](#check_reflexive(A,R))
+[`check_symmetric(R)`](#check_symmetric(R))
+[`check_transitive(A,R)`](#check_transitive(A,R))
+[`check_equivalance(A,R)`](#check_equivalance(A,R))
 
-## 1. check_reflexive(A,R)[▲](#functions)
+## check_reflexive(A,R)[▲](#functions)
 ```python
 def check_reflexive(A,R):
    for x in A:
@@ -19,7 +19,7 @@ def check_reflexive(A,R):
    return True
 ```
 
-## 2. check_symmetric(R)
+## check_symmetric(R)
 ```python
 def check_symmetric(R):
     for (x,y) in R:
@@ -30,7 +30,7 @@ def check_symmetric(R):
     return True
 ```
 
-## 3. check_transitive(A,R)
+## check_transitive(A,R)
 ```python
 def check_transitive(A,R):
     for (x,y) in R:
@@ -43,7 +43,7 @@ def check_transitive(A,R):
     return True
 ```
 
-## 4. check_equivalance(A,R)
+## check_equivalance(A,R)
 ```python
 def check_equivalance(A,R):
     if check_reflexive(A,R) and check_symmetric(R) and check_transitive(A,R):
