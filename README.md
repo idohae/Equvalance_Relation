@@ -1,13 +1,13 @@
-# Equvalance_Relation
+# Equvalance_Relation (同治)
 정의역 집합과 관계집합을 set 형태로 넘겨주면 동치관계를 판별하는 코드이다.
 
 ---
 ## 동치의 조건
-* 반사적(reflexive)   
+* 반사적(reflexive)🌈   
     정의역 집합에 속하는 원소 a에 대해 (a,a)의 관계가 모두 존재해야함.
-* 대칭적(symmetric)   
+* 대칭적(symmetric)🦋   
     정의역 집합에 속하는 원소 a,b에 대해 (a,b)의 관계가 존재할 경우 항상 (b,a)의 관계도 존재해야함.
-* 추이적(transitive)   
+* 추이적(transitive)♻️   
     정의역 집합에 속하는 원소 a,b,c에 대해 (a,b),(b,c) 두 관계가 존재할 때에 항상 (c,a)의 관계도 존재해야함.
 
 ---
